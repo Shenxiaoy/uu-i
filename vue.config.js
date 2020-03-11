@@ -1,8 +1,17 @@
+/*
+ * @Author: your name
+ * @Date: 2020-02-18 16:56:49
+ * @LastEditTime: 2020-03-11 18:02:53
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \uu-i\vue.config.js
+ */
 const glob = require('glob')
 const path = require('path')
 const webpack = require('webpack')
+const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 
-function getPageEntry (globPath) {
+function getPageEntry(globPath) {
   const result = glob.sync(globPath)
   return result.reduce((acc, curr) => {
     const conf = require(curr)
@@ -29,6 +38,9 @@ module.exports = {
 
         // dll过程生成的manifest文件
         manifest: require(path.join(process.cwd(), "public", "vendor-manifest.json"))
+      }),
+      new OpenBrowserPlugin({
+        url: 'http://localhost:8080/test.html'
       })
     ],
     resolve: {
