@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-02-18 16:56:49
- * @LastEditTime: 2020-03-11 18:02:53
+ * @LastEditTime: 2020-03-23 22:27:10
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \uu-i\vue.config.js
@@ -40,7 +40,7 @@ module.exports = {
         manifest: require(path.join(process.cwd(), "public", "vendor-manifest.json"))
       }),
       new OpenBrowserPlugin({
-        url: 'http://localhost:8080/test.html'
+        url: 'http://localhost:8080/fe-example.html'
       })
     ],
     resolve: {
