@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2020-04-01 18:06:59
- * @LastEditTime: 2020-04-01 18:19:00
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \uu-i\src\views\fe-example\pages\collect-exam\module\components\library\butEffect.vue
- -->
 <template>
   <div class="module">
     <slot>
