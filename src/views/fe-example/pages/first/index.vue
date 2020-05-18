@@ -1,18 +1,28 @@
-<!--
- * @Author: your name
- * @Date: 2020-03-23 17:08:36
- * @LastEditTime: 2020-03-23 17:19:06
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \uu-i\src\views\fe-example\pages\first\index.vue
- -->
 <template>
-  <div>first</div>
+  <div>
+    <h5>first test</h5>
+    <div>
+      <test1>
+        <div>i think wo noddd </div>
+        sdfsdf
+      </test1>
+    </div>
+  </div>
 </template>
 
 <script>
+  import test1 from './components/test1'
   export default {
-    name: 'first'
+    name: 'first',
+    data() {
+      return {
+
+      }
+    },
+    components: {
+      test1
+    },
+    mounted() {}
   }
 </script>
 

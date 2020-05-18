@@ -14,11 +14,13 @@
     "core-js": "^2.6.5",
     "element-ui": "^2.12.0",
     "glob": "^7.1.4",
+    "highlight.js": "^10.0.0",
     "v-blur": "^1.0.4",
     "v-clipboard": "^2.2.2",
     "v-hotkey": "^0.8.0",
     "vant": "^2.2.2",
     "vue": "^2.6.10",
+    "vue-highlight.js": "^3.1.0",
     "vue-ripple-directive": "^2.0.1",
     "vue-router": "^3.1.3"
   },

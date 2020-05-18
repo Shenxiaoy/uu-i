@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2020-02-18 16:56:49
- * @LastEditTime: 2020-03-23 22:27:10
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \uu-i\vue.config.js
- */
 const glob = require('glob')
 const path = require('path')
 const webpack = require('webpack')

@@ -39,7 +39,8 @@ const router = new Router({
       path: '/exam',
       name: '收集示例',
       component: CssExam,
-      children: exam_childrenRoute
+      children: exam_childrenRoute,
+      redirect: '/exam/library'
     }
   ]
 })
