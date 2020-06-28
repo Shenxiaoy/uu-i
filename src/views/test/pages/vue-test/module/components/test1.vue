@@ -19,6 +19,12 @@
       return {
         value: ''
       }
+    },
+    mounted() {
+      console.log(this, 'hhhh')
+    },
+    computed: {
+
     }
   }
 </script>

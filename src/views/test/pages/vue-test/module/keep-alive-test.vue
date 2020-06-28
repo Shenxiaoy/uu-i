@@ -8,17 +8,11 @@
  -->
 <template>
   <div>
-    <br>
-    <div style='padding: 24px'>
-      <keep-alive>
-        <test1 v-if='isOk'></test1>
-        <test2 v-else></test2>
-      </keep-alive>
-      <br>
-      <div>
-        <el-button @click="isOk = !isOk">切换</el-button>
-      </div>
-    </div>
+    <h5>test1</h5>
+    <test1 v-if='isOk'>
+      <div>sdfs</div>
+    </test1>
+    <test2 v-else></test2>
   </div>
 </template>
 
@@ -26,7 +20,7 @@
   import test1 from './components/test1'
   import test2 from './components/test2'
   export default {
-    name: 'keep-alive-test',
+    name: 'test-sdf',
     data() {
       return {
         isOk: true
